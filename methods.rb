@@ -21,7 +21,7 @@ end
 puts add(2,3)
 
 def halve number
-    if number.class != Integer
+    if number.class !== Integer
         return nil
     end
    number/2
